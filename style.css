@@ -1,0 +1,32 @@
+:root {
+    --herfst-diep-roodbruin: #8B3A3A;
+    --herfst-oranje: #D2691E;
+    --herfst-goudgeel: #DAA520;
+    --herfst-okergeel: #C68642;
+    --herfst-mosgroen: #556B2F;
+    --herfst-diep-bruin: #4B2E2E;
+    --herfst-donkerpaars: #5D3A3A;
+}
+
+body {
+    background-color: var(--herfst-okergeel);
+    color: var(--herfst-diep-bruin);
+    font-family: Arial, sans-serif;
+}
+
+main{
+    width: 80%;
+    padding: 1em;
+    background-color: var(--herfst-goudgeel);
+    margin: 2em auto;
+    color: var(--herfst-diep-roodbruin);
+}
+
+
+h1 {
+    color: var(--herfst-mosgroen);
+}
+
+p{
+    color: var(--herfst-donkerpaars);
+}
